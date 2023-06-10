@@ -5,11 +5,17 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'My Docs',
+      title: "SecureByte Docs",
       social: {
         github: 'https://github.com/withastro/starlight',
       },
       sidebar: [
+        {
+          label: 'Getting Started',
+          items: [
+            { label: 'Example', link: '/get-started/example' },
+          ],
+        },
         {
           label: 'Guides',
           items: [
