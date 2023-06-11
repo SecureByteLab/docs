@@ -8,7 +8,7 @@ export default defineConfig({
     starlight({
       title: "SecureByte Docs",
       social: {
-        github: 'https://github.com/withastro/starlight',
+        github: 'https://github.com/securebytelab',
       },
       sidebar: [
         {
