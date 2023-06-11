@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://docs.securebyte.zip",
   integrations: [
     starlight({
       title: "SecureByte Docs",
@@ -13,7 +14,7 @@ export default defineConfig({
         {
           label: 'Getting Started',
           items: [
-            { label: 'Example', link: '/get-started/example' },
+            { label: 'Example', link: '/get-started/example/' },
           ],
         },
         {
